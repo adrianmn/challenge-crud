@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: challenge-crud
+  datasource:
+    url: jdbc:h2:mem:users_db;AUTO_RECONNECT=TRUE;MODE=PostgreSQL;
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
